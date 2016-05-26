@@ -1,17 +1,19 @@
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
-For beginners like me to learn the concepts in [Redux](https://github.com/rackt/redux)
+### Simple Redux Example
 
-Can it be simpler? send a pull request
+This project deviates from [simplest-redux-example](https://github.com/jackielii/simplest-redux-example) and begins 
+to separate files into folders. For such a simple app it's probably overkill.
+
+There's an additional button to decrease the counter and another h1 label.
 
 To run this example:
 
-1. [Download this repo](https://github.com/jackielii/simplest-redux-example/archive/master.zip) or `git clone https://github.com/jackielii/simplest-redux-example.git`
-2. From the repo folder run:  
-   `npm install`
-3. `npm start`
-4. open http://localhost:8000/ in the browser
+1. `npm install`
+2. `npm start`
+3. open http://localhost:8000/ in the browser
 
-And also head over to http://redux.js.org/ for some great documentation.
+Inspired by [simplest-redux-example](https://github.com/jackielii/simplest-redux-example)
 
-There is also a [webpack](https://github.com/jackielii/simplest-redux-example/tree/webpack) and an [ES5](https://github.com/jackielii/simplest-redux-example/tree/es5) example.
+
+Something not working? Missing something? Feel send a pull request.
